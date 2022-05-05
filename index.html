@@ -8,6 +8,20 @@
 
     <style>
 
+#img1{
+    position: relative;
+    margin: auto;
+      top: 30px;
+      left: 339px;
+      z-index: auto;
+  }
+
+       
+
+
+
+
+
 
 
 
@@ -25,20 +39,26 @@ padding-left: 40px;
 
 
   h2{
-      padding-top: 50px;
-      padding-left: 80px;
+      position: absolute;
+      top: 50px;
+      left: 90px;
       color:  #766F68;
-      font-size: 50px;
+      font-size: 70px;
       font-style: bold;
+      z-index: 5;
+      font-family: 'Roboto';
 
   }
 
 
   h3{
-      padding-left: 80px;
-      padding-bottom: 80px;
+      position: absolute;
+      bottom: 270px;
+      left: 90px;
+      padding: 5px;
       color: #766F68;
-      font-size: 20px;
+      font-size: 22px;
+      z-index: 5;
 
   }
 
@@ -49,14 +69,17 @@ padding-left: 40px;
       outline: none;
       position: absolute ;
       border: none;
-      font-size: 30px;
+      font-size: 20px;
       font-family: 'arial';
       font-style: bold;
-      color: white;
+      color: rgb(255, 253, 253);
       width: 20%;
+      height: 30%;
+      padding: 5px;
       height: 50px;
-      bottom: 230px;
-      left: 110px;
+      bottom: 200px;
+      left: 100px;
+      z-index: 5;
       
       
       
@@ -65,7 +88,21 @@ padding-left: 40px;
   }
 
   button:hover{
-      background-color: rgb(255, 194, 81);
+      background-color: rgb(248, 174, 37);
+      cursor: pointer;
+      color: rgb(233, 232, 232);
+  }
+
+
+
+  a{
+      color: #766F68;
+      text-decoration: none;
+      font-size: 30px;
+  }
+
+  a:hover{
+      color: black;
       cursor: pointer;
   }
 
@@ -89,7 +126,7 @@ padding-left: 40px;
     position: absolute;
       margin: auto;
       top: 20px;
-      right: 200px;
+      right: 180px;
       font-size: 20px;
       color: black;
   }
@@ -99,15 +136,15 @@ padding-left: 40px;
     position: absolute;
       margin: auto;
       top: 20px;
-      right: 110px;
+      right: 70px;
       font-size: 20px;
       color: black;
 
   }
-  .home:hover{
-      color: black;
-      text-decoration: none;
-  }
+
+
+  
+  
 
 
   
@@ -131,9 +168,14 @@ padding-left: 40px;
     <h3>Colaborate and create bealtiful<br>graphics with your team</h3>
 
 
-    <form>
-        
-    </form>
+    <img src="https://raw.githubusercontent.com/Lorenalgm/AmazingGraph/master/assets/team.jpg" 
+    alt="" height="700" width="1000" id="img1">
+
+
+    
+
+
+    
 
     <div class="bnt">
         <button name="" id="btn1">Start now</button>
